@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+}
+
+#actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.action_link {
+    text-decoration: none;
+    display: block;
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 1rem 10%;
+    font-size: 1.2rem;
+}
+
+.green {
+    background-color: rgb(95, 255, 161);
+    border-color: green;
+    color: black;
+}
+
+.blue {
+    background-color: rgb(0, 101, 135);
+    border-color: rgb(13, 6, 82);
+    color: white;
+}
